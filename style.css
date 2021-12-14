@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+#menu li{
+    padding: 10px;
+    
+}
+
+#social-links li{
+    padding: 10px;
+}
+
+#main{
+    display: flex;
+}
+aside{
+    padding: 10px;
+    flex: 0 0 20vw;
+    background: beige;
+}
+
+aside ul{
+    list-style: none;
+    padding: 0;
+}
+aside li a{
+    color: black;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+aside img{
+    width: 100%;
+}
+article{
+    padding: 10px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.service-box{
+    border: 1px solid lightgray;
+    flex-basis: 32%;
+    padding: 10px;
+    max-width: 370px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.call-to-action{
+
+    align-self: flex-start;
+    margin-top: auto;
+}
+.call-to-action a{
+    border: 2px solid transparent;
+    color: white;
+    background: gray;
+    padding: 8px 13px;
+    text-align: center;
+    display: block;
+}
+
+.call-to-action a:hover{
+    color: gray;
+    background: transparent;
+    border: 2px solid gray;
+}
+
+
+.service-box img{
+    width: 100%;
+}
+
+
+footer{
+    background: yellowgreen;
+    color: black;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+footer span:hover{
+    font-size: large;
+    font-weight: bolder;
+
+}
